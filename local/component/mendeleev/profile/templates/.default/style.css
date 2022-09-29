@@ -1,0 +1,1906 @@
+/*::-webkit-scrollbar {*/
+/*    width: 4px;*/
+/*}*/
+/*::-webkit-scrollbar-track {*/
+/*    background: #FFFFFF;*/
+/*}*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background-color: #ECECED;*/
+/*    border-radius: 20px;*/
+/*}*/
+/** {*/
+/*    scrollbar-width: thin;*/
+/*}*/
+/*button {*/
+/*    cursor: pointer;*/
+/*}*/
+/*input {*/
+/*    outline: none;*/
+/*}*/
+/*.header-h2 {*/
+/*    font: 34px/100% "Montserrat Alternates";*/
+/*    color: #3D454E;*/
+/*    margin-bottom: 100px;*/
+/*}*/
+/*.header-h3 {*/
+/*    font: 600 22px/140% "Montserrat Alternates";*/
+/*    color: #3D454E;*/
+/*    margin-bottom: 80px;*/
+/*    padding-right: 100px;*/
+/*}*/
+/*.profile .tabs-items,*/
+/*.profile .tabs-items .row.profile-view-wrap {*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*}*/
+/*.profile .tabs-items .select {*/
+/*    flex: 1 1 100%;*/
+/*}*/
+/*.profile .tabs-items .new-select {*/
+/*    width: 100%;*/
+/*    text-overflow: ellipsis;*/
+/*    padding-right: 5%;*/
+/*    overflow: hidden;*/
+/*    display: inline-block;*/
+/*    white-space: nowrap;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.profile-aside-logout {*/
+/*    margin-top: 100px;*/
+/*}*/
+/*.profile .profile-aside-menu li a,*/
+/*.profile .profile-aside-logout a {*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #2D5BB9;*/
+/*}*/
+/*.profile .profile-aside-menu li a.active {*/
+/*    color: #3D454E;*/
+/*}*/
+/*.profile .profile-aside-menu li:not(:last-of-type) {*/
+/*    margin-bottom: 30px;*/
+/*}*/
+/*.profile-aside-logout span {*/
+/*    background: url(../../../../../templates/compass/images/SignOut.png) no-repeat;*/
+/*    width: 25px;*/
+/*    height: 25px;*/
+/*    position: relative;*/
+/*    top: -5px;*/
+/*}*/
+/*.profile .tabs-nav.tabs-nav-horizontal {*/
+/*    margin-left: 15px;*/
+/*}*/
+/*.profile .profile-view-wrap {*/
+/*    padding: 60px 10px 0 40px;*/
+/*    margin-left: 15px;*/
+/*}*/
+/*.profile__form .form-header {*/
+/*    display: inline-block;*/
+/*    font: 500 18px/140% "Montserrat";*/
+/*    color: #3D454E;*/
+/*    margin-bottom: 40px;*/
+/*}*/
+/*.item-label {*/
+/*    display: block;*/
+/*    font: 500 12px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*.form-info-registration input {*/
+/*    width: 91%;*/
+/*    height: 50px;*/
+/*    border: 1px solid #9EA2A6;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 6px;*/
+/*    background-color: transparent;*/
+/*    !*margin-bottom: 30px;*!*/
+/*    padding: 12px 0 12px 15px;*/
+/*}*/
+/*.view-item-organization {*/
+/*    margin-top: 50px;*/
+/*}*/
+/*.insert-file {*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    position: relative;*/
+/*    border: 1px solid #C5C7CA;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 6px;*/
+/*    background-color: transparent;*/
+/*    left: 15px;*/
+/*    top: 0;*/
+/*    min-width: 50px;*/
+/*}*/
+/*.insert-file::after {*/
+/*    content: '';*/
+/*    background: url(../../../../../templates/compass/images/attachment.png) no-repeat;*/
+/*    background-position: center;*/
+/*    position: absolute;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*}*/
+/*.content-box-item {*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*    width: 100%;*/
+/*}*/
+/*.form-row.kategory-input,*/
+/*.basic-direction {*/
+/*    width: 530px;*/
+/*}*/
+/*.kategory-input .select,*/
+/*.basic-direction .select {*/
+/*    background-color: transparent;*/
+/*}*/
+/*.button-check-send {*/
+/*    margin-top: 50px;*/
+/*    margin-bottom: 150px;*/
+/*    width: fit-content;*/
+/*}*/
+/*.button-check-send input,*/
+/*.button-archiv-send input,*/
+/*.button-section-add a,*/
+/*.button-news-add a,*/
+/*.button-event-add a,*/
+/*.button-check-send button,*/
+/*.button-archiv-send button {*/
+/*    font: 500 15px/134% "Montserrat";*/
+/*    color: #FFFFFF;*/
+/*    background: #FF5E4D;*/
+/*    opacity: 1;*/
+/*    border-radius: 6px;*/
+/*    padding: 15px 60px;*/
+/*    border: 0;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.button-check-send input.disabled,*/
+/*.button-section-add a.disabled,*/
+/*.button-news-add a.disabled,*/
+/*.button-event-add a.disabled {*/
+/*    opacity: 0.5;*/
+/*}*/
+/*.button-check-send input[name="updateOrganization"] {*/
+/*    padding: 15px 60px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.button-check-send input[name="add-new-employee"],*/
+/*.button-check-send input[name="employee-edit"] {*/
+/*    padding: 15px 60px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.security .header-h3 {*/
+/*    margin-bottom: 50px;*/
+/*}*/
+/*.row.profile-view-wrap.security {*/
+/*    padding-bottom: 150px;*/
+/*}*/
+/*.security .profile-input-label {*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*    align-items: center;*/
+/*}*/
+/*.security .profile-input-link {*/
+/*    align-self: flex-end;*/
+/*    padding-bottom: 3px;*/
+/*    margin-left: 40px;*/
+/*}*/
+/*.security .profile-input {*/
+/*    padding-left: 0;*/
+/*}*/
+/*.profile__edit-email,*/
+/*.profile__edit-password {*/
+/*    display: none;*/
+/*}*/
+/*.edit__email,*/
+/*.edit__password,*/
+/*.hobby-box {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.profile__edit-email input,*/
+/*.profile__edit-password input {*/
+/*    width: 296px;*/
+/*    height: 50px;*/
+/*    order: 1px solid #C5C7CA;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 6px;*/
+/*    border: 1px solid rgb(197, 199, 202);*/
+/*    background-color: transparent;*/
+/*    padding: 12px 0 12px 15px;*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #C5C7CA;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+/*.edit__email-button {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    margin-bottom: 50px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.edit__password-button {*/
+/*    margin-bottom: 150px;*/
+/*}*/
+/*.edit__email-button input,*/
+/*.edit__password-button input {*/
+/*    width: 204px;*/
+/*    height: 50px;*/
+/*    background: #FF5E4D;*/
+/*    border-radius: 6px;*/
+/*    border: 0;*/
+/*    font: 400 15px "Montserrat";*/
+/*    color: #FFFFFF;*/
+/*    margin-right: 40px;*/
+/*}*/
+/*.edit__email-button a,*/
+/*.edit__password-button a {*/
+/*    text-decoration: none;*/
+/*    font: 500 15px "Montserrat";*/
+/*    color: #2D5BB9;*/
+/*    align-self: center;*/
+/*}*/
+/*.edit-email,*/
+/*.edit-password {*/
+/*    font: 500 15px "Montserrat";*/
+/*    color: #2D5BB9;*/
+/*}*/
+/*.profile-view-wrap.employees,*/
+/*.profile-view-wrap.hobby-training,*/
+/*.profile-view-wrap.news,*/
+/*.profile-view-wrap.event,*/
+/*.profile-view-wrap.archiv {*/
+/*    width: 100%;*/
+/*}*/
+/*.employees .header-h3 {*/
+/*    margin-bottom: 30px;*/
+/*}*/
+/*.employees .item-label {*/
+/*    font: 400 13px/160% "Montserrat";*/
+/*    color: #3D454E;*/
+/*    padding-right: 0;*/
+/*}*/
+/*.button-employees-add button {*/
+/*    padding: 15px 60px;*/
+/*    background: #FF5E4D;*/
+/*    border-radius: 6px;*/
+/*    font: 400 15px "Montserrat";*/
+/*    color: #FFFFFF;*/
+/*    border: 0;*/
+/*    margin-top: 50px;*/
+/*}*/
+/*.employees-info,*/
+/*.employees-label {*/
+/*    display: grid;*/
+/*    grid-template-columns: 350px 1fr;*/
+/*}*/
+/*.employees-label {*/
+/*    margin-bottom: 20px;*/
+/*    padding: 0 0 0 25px;*/
+/*}*/
+/*.employees-fio,*/
+/*.employees-label label:nth-child(1),*/
+/*.employees-label div:nth-child(1) {*/
+/*    margin-right: 50px;*/
+/*    -webkit-text-overflow: ellipsis;*/
+/*    text-overflow: ellipsis;*/
+/*    overflow: hidden;*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.edit__employees {*/
+/*    width: 100%;*/
+/*    margin-top: 80px;*/
+/*}*/
+/*.employees-info {*/
+/*    background: #FFFFFF;*/
+/*    border: 1px solid #E3F1FF;*/
+/*    box-sizing: border-box;*/
+/*    padding: 27px 0 26px 25px;*/
+/*    font: 400 14px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    width: 100%;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.employees-hide-content {*/
+/*    padding: 27px 0 26px 25px;*/
+/*    background: #FFFFFF;*/
+/*    border: 1px solid #E3F1FF;*/
+/*    box-sizing: border-box;*/
+/*    border-top-width: 0;*/
+/*    margin-bottom: 25px;*/
+/*    display: none;*/
+/*}*/
+/*.employees-content-item {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.content-item-phone-h,*/
+/*.content-item-sections-h,*/
+/*.content-item-email-h {*/
+/*    font: 500 12px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.content-item-phone-number {*/
+/*    margin-bottom: 30px;*/
+/*}*/
+/*.content-item-sections-text {*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.content-item-phone-number,*/
+/*.content-item-sections-text,*/
+/*.content-item-email-text {*/
+/*    font: 400 14px "Montserrat";*/
+/*    color: #3D454E;*/
+/*}*/
+/*.employees-content-item:nth-child(3) {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: nowrap;*/
+/*    margin-top: 40px;*/
+/*}*/
+/*.employees-content-item button:nth-child(1) {*/
+/*    margin-right: 40px;*/
+/*}*/
+/*.employees-content-item button {*/
+/*    font: 500 15px "Montserrat";*/
+/*    padding: 0;*/
+/*    color: #2D5BB9;*/
+/*    border: 0;*/
+/*    background-color: transparent;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.employees-content-item button.disabled {*/
+/*    color: #9EA2A6;*/
+/*}*/
+/*.employees-container:not(:last-of-type) {*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.employees-container:last-of-type {*/
+/*    margin-bottom: 150px;*/
+/*}*/
+/*.employees-burger {*/
+/*    position: absolute;*/
+/*    background: url(../../../../../templates/compass/images/burger.png) no-repeat;*/
+/*    background-size: contain;*/
+/*    width: 10px;*/
+/*    height: 20px;*/
+/*    display: inline-block;*/
+/*    right: 30px;*/
+/*}*/
+/*.employees-burger ul {*/
+/*    display: none;*/
+/*    width: 176px;*/
+/*    position: absolute;*/
+/*    top: 33px;*/
+/*    left: -115px;*/
+/*    background: #FFFFFF;*/
+/*    box-shadow: 0px 4px 30px rgba(52, 99, 197, 0.1);*/
+/*    z-index: 99;*/
+/*}*/
+/*.employees-burger.active ul {*/
+/*    display: block;*/
+/*}*/
+/*.employees-burger ul li {*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    padding: 20px 0 0 15px;*/
+/*    -ms-user-select: none;*/
+/*    -moz-user-select: none;*/
+/*    -webkit-user-select: none;*/
+/*    user-select: none;*/
+/*    background-color: #FFFFFF;*/
+/*}*/
+/*.employees-burger ul li:nth-child(2) {*/
+/*    margin-bottom: 18px;*/
+/*}*/
+/*.hobby-box .header-h3,*/
+/*.training-box .header-h3,*/
+/*.news-box .header-h3 {*/
+/*    margin-bottom: 50px;*/
+/*}*/
+/*.hobby-box .button-section-add,*/
+/*.training-box .button-section-add,*/
+/*.news-box .button-news-add,*/
+/*.news-box .button-event-add {*/
+/*    margin-bottom: 80px;*/
+/*}*/
+/*.hobby-box .button-section-add.empty,*/
+/*.training-box .button-section-add.empty,*/
+/*.services-box .button-section-add.empty,*/
+/*.news-box .button-news-add.empty,*/
+/*.news-box .button-event-add.empty {*/
+/*    margin-bottom: 320px;*/
+/*}*/
+/*.hobby-box .button-section-add a,*/
+/*.training-box .button-section-add a,*/
+/*.services-box .button-section-add a,*/
+/*.news-box .button-news-add a,*/
+/*.news-box .button-event-add a {*/
+/*    text-decoration: none;*/
+/*}*/
+/*.view-item-hobby textarea {*/
+/*    background-color: transparent;*/
+/*    width: 530px;*/
+/*    height: 200px;*/
+/*    border: 1px solid #C5C7CA;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 6px;*/
+/*    resize: none;*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.view-item-hobby .hobby-button-save,*/
+/*.services-button-container .services-button-save,*/
+/*.services-button-container input {*/
+/*    background: #FF5E4D;*/
+/*    border-radius: 6px;*/
+/*    padding: 15px 60px;*/
+/*    font: 500 15px "Montserrat";*/
+/*    color: #FFFFFF;*/
+/*    border: 0;*/
+/*    margin-right: 40px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.view-item-hobby .hobby-button-cancel,*/
+/*.services-button-container .services-button-cancel {*/
+/*    background-color: transparent;*/
+/*    font: 500 15px "Montserrat";*/
+/*    color: #2D5BB9;*/
+/*    border: 0;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.hobby-button-container {*/
+/*    margin-bottom: 150px;*/
+/*}*/
+/*.hobby-cards__items,*/
+/*.training-cards__items,*/
+/*.news-cards__items {*/
+/*    margin-bottom: 150px;*/
+/*}*/
+/*.hobby-cards__items .item-content {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.hobby-card-item,*/
+/*.training-card-item,*/
+/*.news-card-item {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 2fr;*/
+/*    background: #FFFFFF;*/
+/*    border: 1px solid #E3F1FF;*/
+/*    box-sizing: border-box;*/
+/*    margin-right: 30px;*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.news-card-item {*/
+/*    max-height: 172px;*/
+/*}*/
+/*.hobby-card-item .item-video,*/
+/*.training-card-item .item-video,*/
+/*.news-card-item .item-video {*/
+/*    margin: 15px 20px 15px 25px;*/
+/*    position: relative;*/
+/*    z-index: 0;*/
+/*}*/
+/*.hobby-card-item .item-video .video-link,*/
+/*.training-card-item .item-video .video-link {*/
+/*    background: url(../../../../../templates/compass/assets/images/Group_903.png) no-repeat;*/
+/*    display: inline-block;*/
+/*    width: 52px;*/
+/*    height: 52px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    margin: 45px 62px;*/
+/*    z-index: 99;*/
+/*}*/
+/*.news-card-item .item-video {*/
+/*    width: 175px;*/
+/*    height: 142px;*/
+/*    object-fit: contain;*/
+/*}*/
+/*.news-card-item .item-video .video-link {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: fill;*/
+/*    background: url(../../../../../templates/compass/assets/images/news_image.png) no-repeat;*/
+/*}*/
+/*.hobby-card-item .item-video,*/
+/*.hobby-card-item .item-video img,*/
+/*.training-card-item .item-video,*/
+/*.training-card-item .item-video img {*/
+/*    width: 175px;*/
+/*    height: 142px;*/
+/*    object-fit: contain;*/
+/*}*/
+/*.hobby-card-item .content-header,*/
+/*.training-card-item .content-header,*/
+/*.news-card-item .content-header {*/
+/*    font: 400 14px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    margin-top: 15px;*/
+/*}*/
+/*.news-card-item .content-header {*/
+/*    padding-right: 120px;*/
+/*    height: 25%;*/
+/*}*/
+/*.hobby-card-item .content-box,*/
+/*.training-card-item .content-box,*/
+/*.news-card-item .content-box {*/
+/*    display: grid;*/
+/*    grid-template-columns: 2fr 1fr;*/
+/*}*/
+/*.hobby-card-item .content-button,*/
+/*.training-card-item .content-button,*/
+/*.news-card-item .content-button {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: flex-end;*/
+/*    margin-right: 25px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.hobby-card-item .content-author,*/
+/*.training-card-item .content-author,*/
+/*.news-card-item .content-author {*/
+/*    font: 500 12px "Montserrat";*/
+/*    color: #C5C7CA;*/
+/*    margin-top: 82px;*/
+/*}*/
+/*.hobby-card-item .content-button-edit,*/
+/*.hobby-card-item .content-button-del,*/
+/*.training-card-item .content-button-edit,*/
+/*.training-card-item .content-button-del,*/
+/*.news-card-item .content-button-edit,*/
+/*.news-card-item .content-button-archiv {*/
+/*    background-color: transparent;*/
+/*    font: 500 15px "Montserrat";*/
+/*    color: #2D5BB9;*/
+/*    border: 0;*/
+/*    cursor: pointer;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.hobby-card-item .content-button-edit,*/
+/*.training-card-item .content-button-edit,*/
+/*.news-card-item .content-button-edit {*/
+/*    margin-right: 20px;*/
+/*}*/
+/*.hobby-card-item .content-button-del.disabled,*/
+/*.training-card-item .content-button-del.disabled,*/
+/*.news-card-item .content-button-archiv.disabled {*/
+/*    opacity: 0.5;*/
+/*}*/
+/*.news-card-item .content-button-archiv {*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.edit__services,*/
+/*.edit__bid {*/
+/*    width: 100%;*/
+/*}*/
+/*.bid,*/
+/*.bid-box {*/
+/*    width: 100%;*/
+/*}*/
+/*.services-container,*/
+/*.bid-container {*/
+/*    margin-bottom: 150px;*/
+/*}*/
+/*.services-label {*/
+/*    display: grid;*/
+/*    grid-template-columns: 2fr 1fr;*/
+/*    padding: 0 0 0 23px;*/
+/*    box-sizing: border-box;*/
+/*    margin-bottom: 30px;*/
+/*    margin-right: 20px;*/
+/*    text-align: left;*/
+/*}*/
+/*.bid-label {*/
+/*    display: grid;*/
+/*    grid-template-areas: "date name tel comment comment";*/
+/*    padding: 0 0 0 25px;*/
+/*    box-sizing: border-box;*/
+/*    gap: 2%;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+/*.bid-label .item-label:nth-child(1) {*/
+/*    grid-area: date;*/
+/*}*/
+/*.bid-label .item-label:nth-child(2) {*/
+/*    grid-area: name;*/
+/*}*/
+/*.bid-label .item-label:nth-child(3) {*/
+/*    grid-area: tel;*/
+/*}*/
+/*.bid-label .item-label:nth-child(4) {*/
+/*    grid-area: comment;*/
+/*}*/
+/*.services-label label:nth-child(1),*/
+/*.services-label div:nth-child(1) {*/
+/*    margin-right: 50px;*/
+/*}*/
+/*.services-info {*/
+/*    display: grid;*/
+/*    grid-template-columns: 2fr 1fr;*/
+/*    padding: 37px 0 36px 23px;*/
+/*    background: #FFFFFF;*/
+/*    border: 1px solid #E3F1FF;*/
+/*    box-sizing: border-box;*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    margin-right: 20px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.bid-quantity {*/
+/*    width: 27px;*/
+/*    height: 18px;*/
+/*    background: #FF5E4D;*/
+/*    border-radius: 20px;*/
+/*    font: 600 12px "Montserrat";*/
+/*    color: #FFFFFF;*/
+/*    text-align: center;*/
+/*    margin-right: 10px;*/
+/*    position: relative;*/
+/*    left: 10px;*/
+/*    padding:1px 0;*/
+/*}*/
+/*.bid-info {*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*    padding: 25px 0 25px 25px;*/
+/*    background: #FFFFFF;*/
+/*    border: 1px solid #E3F1FF;*/
+/*    box-sizing: border-box;*/
+/*    font: 400 14px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    cursor: pointer;*/
+/*    margin-right: 20px;*/
+/*    align-items: center;*/
+/*    position: relative;*/
+/*    height: 90px;*/
+/*}*/
+/*.bid-info.archiv {*/
+/*    flex-wrap: wrap;*/
+/*    height: auto;*/
+/*}*/
+/*.bid-info.archiv .bid-error-message {*/
+/*    font: 400 12px "Montserrat";*/
+/*    color: #FF5E4D;*/
+/*    margin-top: 30px;*/
+/*}*/
+/*.bid-info-date {*/
+/*    width: 20%;*/
+/*}*/
+/*.bid-info-name {*/
+/*    margin-right: 5%;*/
+/*}*/
+/*.bid-info-tel {*/
+/*    margin-right: 4%;*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.bid-info-comment {*/
+/*    font: 400 12px/160% "Montserrat";*/
+/*    width: 28%;*/
+/*}*/
+/*.bid-info-comment .services-burger {*/
+/*    right: -30px;*/
+/*    top: 12px;*/
+/*}*/
+/*.services-info .services-section {*/
+/*    margin-right: 50px;*/
+/*    overflow: hidden;*/
+/*    white-space: nowrap;*/
+/*    -webkit-text-overflow: ellipsis;*/
+/*    text-overflow: ellipsis;*/
+/*}*/
+/*.services-box .button-section-add {*/
+/*    margin-bottom: 50px;*/
+/*}*/
+/*.services-box .header-h3 {*/
+/*    margin-bottom: 50px;*/
+/*}*/
+/*.services-hide-content {*/
+/*    display: none;*/
+/*    flex-direction: row;*/
+/*    margin-right: 20px;*/
+/*    background: #FFFFFF;*/
+/*    border: 1px solid #E3F1FF;*/
+/*    box-sizing: border-box;*/
+/*    border-top-width: 0;*/
+/*    padding: 30px 0 30px 25px;*/
+/*}*/
+/*.services-hide-content .content-items-header {*/
+/*    font: 500 12px "Montserrat";*/
+/*    color: #3D454E;*/
+/*}*/
+/*.services-hide-content div:not(:last-of-type) {*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.services-hide-content .services-content-item div {*/
+/*    font: 400 14px "Montserrat";*/
+/*    color: #3D454E;*/
+/*}*/
+/*.services-content-item-button a {*/
+/*    font: 500 15px "Montserrat";*/
+/*    color: #2D5BB9;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.services-content-item-button {*/
+/*    margin-top: 30px;*/
+/*}*/
+/*.services-burger {*/
+/*    position: absolute;*/
+/*    background: url(../../../../../templates/compass/images/burger.png) no-repeat;*/
+/*    background-size: contain;*/
+/*    width: 10px;*/
+/*    height: 20px;*/
+/*    display: inline-block;*/
+/*    right: 25px;*/
+/*}*/
+/*.services-burger ul {*/
+/*    display: none;*/
+/*    padding: 20px 20px 20px 15px;*/
+/*    position: absolute;*/
+/*    top: 40px;*/
+/*    right: -25px;*/
+/*    background: #FFFFFF;*/
+/*    box-shadow: 0px 4px 30px rgba(52, 99, 197, 0.1);*/
+/*    z-index: 99;*/
+/*}*/
+/*.services-burger ul li {*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    -ms-user-select: none;*/
+/*    -moz-user-select: none;*/
+/*    -webkit-user-select: none;*/
+/*    user-select: none;*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.services-burger ul li:not(:last-of-type) {*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.services-count,*/
+/*.bid-info-comment {*/
+/*    position: relative;*/
+/*}*/
+/*.service-icon a {*/
+/*    background: url(../../../../../templates/compass/assets/images/Pencil.png) no-repeat;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    display: inline-block;*/
+/*    margin-left: 18px;*/
+/*    position: relative;*/
+/*    top: 4px;*/
+/*}*/
+/*.services-box-item,*/
+/*.bid-box-item {*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.direction-input-item {*/
+/*    position: relative;*/
+/*}*/
+/*.direction-input-item input {*/
+/*    margin-bottom: 5px;*/
+/*}*/
+/*.direction-input-item::after {*/
+/*    content: '';*/
+/*    background: url(../../../../../templates/compass/assets/images/arrow.png) no-repeat;*/
+/*    width: 13px;*/
+/*    height: 8px;*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    right: 13px;*/
+/*    top: 23px;*/
+/*    transition: transform .4s;*/
+/*}*/
+/*div.direction-input-item.active::after {*/
+/*    transform: rotate(180deg);*/
+/*}*/
+/*.services__direction-items {*/
+/*    margin-bottom: 50px;*/
+/*}*/
+/*.services__direction-items .direction-list-item {*/
+/*    background: #FFFFFF;*/
+/*    border: 1px solid #E3F1FF;*/
+/*    box-sizing: border-box;*/
+/*    box-shadow: 0px 4px 30px rgba(52, 99, 197, 0.1);*/
+/*    border-radius: 6px;*/
+/*    padding: 15px 0 0 15px;*/
+/*    transition: .4s ease-in;*/
+/*    position: absolute;*/
+/*    z-index: 9;*/
+/*    width: 530px;*/
+/*    display: none;*/
+/*}*/
+/*.form__clone-container {*/
+/*    width: 91%;*/
+/*}*/
+/*.form__clone-container .list-item-create,*/
+/*.form__clone-container .list-item-add {*/
+/*    border-top: 1px solid #D8DADC;*/
+/*    padding-top: 25px;*/
+/*    width: 95%;*/
+/*}*/
+/*.scroll-list-item {*/
+/*    height: 282px;*/
+/*    overflow: hidden;*/
+/*    overflow-y: scroll;*/
+/*}*/
+/*.list-item-create,*/
+/*.list-item-add {*/
+/*    margin-top: 15px;*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.list-item-create.active {*/
+/*    display: none;*/
+/*}*/
+/*.list-item-create a {*/
+/*    font: 400 14px "Montserrat";*/
+/*    color: #81868C;*/
+/*    text-decoration: none;*/
+/*}*/
+/*.list-item-create span {*/
+/*    display: inline;*/
+/*    position: relative;*/
+/*    top: 5px;*/
+/*    padding: 0 3px 0 0;*/
+/*}*/
+/*.list-item-add {*/
+/*    display: none;*/
+/*}*/
+/*.new-select__list .list-item-add input {*/
+/*    display: inline;*/
+/*    width: 88%;*/
+/*    height: 40px;*/
+/*    padding: 5px 0 5px 15px;*/
+/*    margin-right: 10px;*/
+/*    margin-bottom: 0;*/
+/*}*/
+/*.new-select__list .list-item-add {*/
+/*    padding-top: 0;*/
+/*}*/
+/*.new-select__list .list-item-add span {*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    top: 15px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.new-select__list .list-item-add svg {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*}*/
+/*.new-select__list .list-item-search input[type="text"] {*/
+/*    height: 40px;*/
+/*    margin-top: 25px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*.scroll-list-item {*/
+/*    width: 95%;*/
+/*}*/
+
+/*.scroll-list-item .list-item-text {*/
+/*    font: 400 14px "Montserrat";*/
+/*    color: #3D454E;*/
+/*    cursor: pointer;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    min-height: 40px;*/
+/*}*/
+/*.list-item-search input {*/
+/*    width: 95%;*/
+/*    border-color: #9EA2A6;*/
+/*    margin-top: 20px;*/
+/*    height: 40px;*/
+/*}*/
+/*.list-item-search input::-webkit-input-placeholder {*/
+/*    color: #9EA2A6;*/
+/*}*/
+/*.list-item-search input:-moz-placeholder {*/
+/*    color: #9EA2A6;*/
+/*}*/
+/*.direction-list-item.providing li:nth-child(1) {*/
+/*    margin-top: 10px;*/
+/*}*/
+/*.direction-list-item.providing li:last-of-type {*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.services__direction-items.services,*/
+/*.services__direction-items.providing,*/
+/*.services__direction-items.invalid,*/
+/*.services__direction-items.kategory-invalid,*/
+/*.services__direction-items.district {*/
+/*    margin-bottom: 40px;*/
+/*}*/
+/*.services__direction-items.providing {*/
+/*    position: relative;*/
+/*}*/
+/*textarea,*/
+/*textarea[id="formАppeal"],*/
+/*textarea[name="formDocumentServices"],*/
+/*textarea[name="element[text-detail][]"],*/
+/*textarea[name="text-preview"] {*/
+/*    width: 91%;*/
+/*    height: 230px;*/
+/*    background-color: transparent;*/
+/*    resize: none;*/
+/*    border: 1px solid #9EA2A6;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 6px;*/
+/*    padding: 12px 0 30px 15px;*/
+/*    margin-bottom: 40px;*/
+/*}*/
+/*textarea[name="formNewsText"] {*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.services .scroll-list-item {*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.services .list-item-search input {*/
+/*    margin-bottom: 25px;*/
+/*}*/
+/*.price-services {*/
+/*    padding-bottom: 80px;*/
+/*    margin-bottom: 30px;*/
+/*    position: relative;*/
+/*}*/
+/*.price-services::after {*/
+/*    content: "";*/
+/*    height: 1px;*/
+/*    width: calc(125% - 100px);*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    background-color: #D8DADC;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    padding-right:100px;*/
+/*}*/
+/*.price-services input {*/
+/*    width: 18px;*/
+/*    height: 18px;*/
+/*    margin-bottom: 0;*/
+/*    margin-right: 10px;*/
+/*    border: 1px solid #5086F5;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.price-services .checkbox-items {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    user-select: none;*/
+/*}*/
+/*.price-services .checkbox-items label {*/
+/*    align-self: center;*/
+/*}*/
+/*.price-services .checkbox-item {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*.add-service-page .price-services input[type="checkbox"]:checked,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked) {*/
+/*    position: absolute;*/
+/*    left: -9999px;*/
+/*}*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label {*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    padding-left: 28px;*/
+/*    line-height: 20px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:before,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0px;*/
+/*    top: 0px;*/
+/*    width: 18px;*/
+/*    height: 18px;*/
+/*    border: 1px solid #5086F5;*/
+/*    box-sizing: border-box;*/
+/*    background-color: transparent;*/
+/*    border-radius: 100%;*/
+/*}*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:before,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:before {*/
+/*    border-radius: 100%;*/
+/*}*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:after,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    -webkit-transition: all 0.1s ease;*/
+/*    -moz-transition: all 0.1s ease;*/
+/*    -o-transition: all 0.1s ease;*/
+/*    transition: all 0.1s ease;*/
+/*}*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:after,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:after {*/
+/*    left: 4px;*/
+/*    top: 4px;*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*    border-radius: 100%;*/
+/*    background-color: #5086F5;*/
+/*    border: 0;*/
+/*}*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:after {*/
+/*    opacity: 0;*/
+/*}*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:after {*/
+/*    opacity: 1;*/
+/*}*/
+/*.form__line-hr {*/
+/*    border: 1px solid #D8DADC;*/
+/*    margin-right: 10px;*/
+/*}*/
+/*.services-button-container {*/
+/*    margin-bottom: 150px;*/
+/*    display: flex;*/
+/*    align-items: baseline;*/
+/*    width: 50%;*/
+/*}*/
+/*.services-button-container .services-button-add {*/
+/*    display: block;*/
+/*    background: #F8FBFF;*/
+/*    border: 1px solid #5086F5;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 6px;*/
+/*    padding: 10px 15px 10px 55px;*/
+/*    font: 500 15px "Montserrat";*/
+/*    color: #2D5BB9;*/
+/*    position: relative;*/
+/*    margin-bottom: 60px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.services-button-container .services-button-add::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    background: url(../../../../../templates/compass/assets/images/Plus.png) no-repeat;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    left: 15px;*/
+/*    bottom: 5px;*/
+/*}*/
+/*.row.profile-view-wrap.news-add-element,*/
+/*.row.profile-view-wrap.event-add-element {*/
+/*    width: 100%;*/
+/*}*/
+/*.news-add-element .news-add-photo {*/
+/*    background: url(../../../../../templates/compass/assets/images/Rectangle_22.png) no-repeat;*/
+/*    background-size: cover;*/
+/*    border-radius: 2px;*/
+/*    margin-bottom: 76px;*/
+/*    position: relative;*/
+/*    z-index: 0;*/
+/*    max-height: 100px;*/
+/*    padding: 6px;*/
+/*}*/
+/*.photo-element input[type="file"] {*/
+/*    width: 0.1px;*/
+/*    max-height: 0.1px;*/
+/*    opacity: 0;*/
+/*    position: absolute;*/
+/*    z-index: -10;*/
+/*    margin: 0;*/
+/*}*/
+/*.photo-element.dragover {*/
+/*    background-color: aliceblue;*/
+/*    outline-offset: -17px;*/
+/*}*/
+/*.news-add-element .photo-back-text {*/
+/*    font: 500 12px/130% "Montserrat";*/
+/*    color: #9EA2A6;*/
+/*    position: relative;*/
+/*    z-index: 3;*/
+/*    display: block;*/
+/*}*/
+/*.photo-back-text:hover {*/
+/*    cursor: pointer;*/
+/*    transition: .3s all ease;*/
+/*}*/
+/*.photo-back-text.focus {*/
+/*    !* outline: 1px solid #0078d7;*/
+/*    outline: -webkit-focus-ring-color auto 5px; *!*/
+/*}*/
+/*.news-add-element .photo-element {*/
+/*    padding: 37px 25px 34px 54px;*/
+/*    border: 1px dashed #9BB3E3;*/
+/*    box-sizing: border-box;*/
+/*    position: relative;*/
+/*}*/
+/*.photo-element svg {*/
+/*    position: absolute;*/
+/*    left: 28px;*/
+/*    top: 35px;*/
+/*}*/
+/*.photo-size-recommended {*/
+/*    font: 500 12px/120% "Montserrat";*/
+/*    color: #C5C7CA;*/
+/*    margin-top: 16px;*/
+/*}*/
+/*.output-photo-file {*/
+/*    display: flex;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*    flex-wrap: wrap;*/
+/*    max-width: 530px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*.output-photo-file img {*/
+/*    max-width: 120px;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    margin-right: 2%;*/
+/*}*/
+/*.event-date-time {*/
+/*    display: flex;*/
+/*}*/
+/*.event-date-time-item {*/
+/*    flex: 0 0 250px;*/
+/*}*/
+/*.event-date-time-item:not(:last-of-type) {*/
+/*    margin-right: 30px;*/
+/*}*/
+/*.services.news-add-element.textarea {*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #C5C7CA;*/
+/*}*/
+/*.services.news-add-element.textarea[name="text-preview"] {*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #C5C7CA;*/
+/*}*/
+/*.show-organization-success-modal {*/
+/*    display: none;*/
+/*    position: fixed;*/
+/*    top: 5%;*/
+/*    left: 50%;*/
+/*    margin-left: -300px;*/
+/*    min-width: 25.7%;*/
+/*    width: 25%;*/
+/*    background: #FFFFFF;*/
+/*    border: 0;*/
+/*}*/
+/*.show-organization-success-modal label,*/
+/*.show-organization-success-modal div.item-label {*/
+/*    margin: 152px 45px 43px 40px;*/
+/*    font: 400 16px "Montserrat";*/
+/*}*/
+/*.show-organization-success-modal .button-check-send.modal--hide {*/
+/*    margin: 0 0 110px 40px;*/
+/*}*/
+/*.show-employees-modal {*/
+/*    display: none;*/
+/*    position: fixed;*/
+/*    top: 5%;*/
+/*    left: 50%;*/
+/*    margin-left: -300px;*/
+/*    min-width: 29.7%;*/
+/*    background: #FFFFFF;*/
+/*    border: 0;*/
+/*}*/
+/*.show-employees-success-modal,*/
+/*.show-employees-delete-modal {*/
+/*    display: none;*/
+/*    position: fixed;*/
+/*    top: 5%;*/
+/*    left: 50%;*/
+/*    margin-left: -300px;*/
+/*    min-width: 25.7%;*/
+/*    width: 25%;*/
+/*    background: #FFFFFF;*/
+/*    border: 0;*/
+/*}*/
+/*.show-archiv-modal {*/
+/*    display: none;*/
+/*    position: fixed;*/
+/*    top: 5%;*/
+/*    left: 50%;*/
+/*    margin-left: -300px;*/
+/*    min-width: 25.7%;*/
+/*    width: 28%;*/
+/*    background: #FFFFFF;*/
+/*    border: 0;*/
+/*}*/
+/*.show-archiv-modal .modal-container {*/
+/*    padding: 65px 50px 0 50px;*/
+/*}*/
+/*.show-archiv-modal .modal-container .header-h3 {*/
+/*    width: 100%;*/
+/*    margin-bottom: 50px;*/
+/*}*/
+/*.show-archiv-modal .modal__form {*/
+/*    margin-left: 0;*/
+/*}*/
+/*.show-archiv-modal .button-archiv-send {*/
+/*    margin-bottom: 65px;*/
+/*}*/
+/*.show-employees-success-modal label.item-label,*/
+/*.show-employees-delete-modal label.item-label,*/
+/*.show-employees-delete-modal div.item-label,*/
+/*.show-employees-success-modal div.item-label {*/
+/*    margin: 164px 0 40px 40px;*/
+/*    width: 90%;*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #3D454E;*/
+/*}*/
+/*.show-employees-success-modal button,*/
+/*.show-employees-delete-modal button {*/
+/*    margin-left: 40px;*/
+/*    margin-bottom: 125px;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*}*/
+/*.show-employees-delete-modal {*/
+/*    width: 570px;*/
+/*}*/
+/*.show-employees-success-modal .button-check-send.modal--hide,*/
+/*.show-employees-delete-modal .button-check-send.modal--hide {*/
+/*    margin-bottom: 0;*/
+/*}*/
+/*.show-employees-delete-modal .btn-delete-action {*/
+/*    border: 0;*/
+/*    outline: none;*/
+/*}*/
+/*.close-modal {*/
+/*    position: absolute;*/
+/*    right: 25px;*/
+/*    top: 25px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.show-employees-modal .header-h3 {*/
+/*    font: 600 22px "Montserrat Alternates";*/
+/*    color: #3D454E;*/
+/*    margin: 65px 0 60px 50px;*/
+/*}*/
+/*.modal__form label {*/
+/*    -ms-user-select: none;*/
+/*    -moz-user-select: none;*/
+/*    -khtml-user-select: none;*/
+/*    -webkit-user-select: none;*/
+/*    font: 400 16px "Montserrat";*/
+/*    color: #3D454E;*/
+/*}*/
+/*.modal__form input {*/
+/*    padding: 12px 0 12px 15px;*/
+/*    width: 100%;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.modal__form {*/
+/*    margin-left: 50px;*/
+/*    margin-bottom: 40px;*/
+/*    overflow-y: scroll;*/
+/*    max-height: 650px;*/
+/*    padding-right: 100px;*/
+/*}*/
+/*.modal__form .direction-list-item.providing {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    margin-top: -15px;*/
+/*}*/
+/*.modal__form .scroll-list-item {*/
+/*    height: auto;*/
+/*}*/
+/*.modal__form .button-check-send.modal--button {*/
+/*    margin-bottom: 100px;*/
+/*    margin-top: 40px;*/
+/*    opacity: 0.5;*/
+/*}*/
+/*.modal__form .button-check-send.modal--button.active {*/
+/*    opacity: 1;*/
+/*}*/
+/*.modal__form .direction-input-item::after {*/
+/*    right: 12px;*/
+/*    top: 20px;*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:checked,*/
+/*.modal__form .list-item-text input[type="checkbox"]:not(:checked),*/
+/*.add-service-page .price-services input[type="checkbox"]:checked,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked) {*/
+/*    position: absolute;*/
+/*    left: -9999px;*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:checked+label,*/
+/*.modal__form .list-item-text input[type="checkbox"]:not(:checked)+label,*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label {*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    padding-left: 28px;*/
+/*    line-height: 20px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:checked+label:before,*/
+/*.modal__form .list-item-text input[type="checkbox"]:not(:checked)+label:before,*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:before,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0px;*/
+/*    top: 0px;*/
+/*    width: 17px;*/
+/*    height: 17px;*/
+/*    border: 1px solid #5086F5;*/
+/*    background-color: #FFFFFF;*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:checked+label:before,*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:before {*/
+/*    background-color: #5086F5;*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:checked+label:before,*/
+/*.modal__form .list-item-text input[type="checkbox"]:not(:checked)+label:before,*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:before,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:before {*/
+/*    border-radius: 2px;*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:checked+label:after,*/
+/*.modal__form .list-item-text input[type="checkbox"]:not(:checked)+label:after,*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:after,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    -webkit-transition: all 0.2s ease;*/
+/*    -moz-transition: all 0.2s ease;*/
+/*    -o-transition: all 0.2s ease;*/
+/*    transition: all 0.2s ease;*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:checked+label:after,*/
+/*.modal__form .list-item-text input[type="checkbox"]:not(:checked)+label:after,*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:after,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:after {*/
+/*    left: 4px;*/
+/*    top: 4px;*/
+/*    width: 9px;*/
+/*    height: 5px;*/
+/*    border-radius: 1px;*/
+/*    border-left: 2px solid #FFFFFF;*/
+/*    border-bottom: 2px solid #FFFFFF;*/
+/*    -webkit-transform: rotate(-45deg);*/
+/*    -moz-transform: rotate(-45deg);*/
+/*    -o-transform: rotate(-45deg);*/
+/*    -ms-transform: rotate(-45deg);*/
+/*    transform: rotate(-45deg);*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:not(:checked)+label:after,*/
+/*.add-service-page .price-services input[type="checkbox"]:not(:checked)+label:after {*/
+/*    opacity: 0;*/
+/*}*/
+/*.modal__form .list-item-text input[type="checkbox"]:checked+label:after,*/
+/*.add-service-page .price-services input[type="checkbox"]:checked+label:after {*/
+/*    opacity: 1;*/
+/*}*/
+/*.form__clone-container .new-select:after {*/
+/*    content: '';*/
+/*    background: url(../../../../../templates/compass/assets/images/arrow.png) no-repeat;*/
+/*    width: 13px;*/
+/*    height: 8px;*/
+/*    right: 5px;*/
+/*    transition: transform .4s;*/
+/*}*/
+/*.form__clone-container .new-select__list {*/
+/*    background: #FFFFFF;*/
+/*    border: 1px solid #E3F1FF;*/
+/*    box-sizing: border-box;*/
+/*    box-shadow: 0px 4px 30px rgb(52 99 197 / 10%);*/
+/*    border-radius: 6px;*/
+/*    padding: 0 0 0 15px;*/
+/*    min-width: 100%;*/
+/*    font: 400 14px/160% "Montserrat";*/
+/*    color: #3D454E;*/
+/*}*/
+/*.multiselect__options .multiselect__option {*/
+/*    display: block;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.form__clone-container .multiselect__input.js-multiselect__check {*/
+/*    display: block;*/
+/*    opacity: 0;*/
+/*    position: absolute;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*}*/
+/*.form__clone-container .multiselect__text {*/
+/*    transition: background-color 0.35s ease;*/
+/*}*/
+/*.multiple {*/
+/*    background-color: #E3F1FF;*/
+/*    color: #3D454E;*/
+/*    box-shadow: 0px 4px 30px rgb(52 99 197 / 10%);*/
+/*    border-radius: 6px;*/
+/*    margin-left: -15px;*/
+/*}*/
+/*.hide {*/
+/*    display: none;*/
+/*}*/
+/*.view-item-services .select {*/
+/*    width: 100%;*/
+/*}*/
+/*.view-item-services .new-select {*/
+/*    width: 100%;*/
+/*    text-overflow: ellipsis;*/
+/*    white-space: nowrap;*/
+/*    display: inline-block;*/
+/*    padding-right: 40px;*/
+/*}*/
+/*input[name="updateOrganization"] {*/
+/*    width: 100%;*/
+/*}*/
+/*.row.profile-view-wrap.services.news-add-element {*/
+/*    padding-left: 40px;*/
+/*}*/
+/*.news-wrapper .tabs-nav-horizontal {*/
+/*    padding-left: 15px;*/
+/*}*/
+/*.news-wrapper input,*/
+/*.news-wrapper textarea {*/
+/*    width: 100%;*/
+/*}*/
+/*.news-wrapper .form__clone-container {*/
+/*    width: 100%;*/
+/*}*/
+/*.hobby-cards__items .item-video .video-link {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    object-fit: fill;*/
+/*}*/
+/*.hobby-cards__items .content-author {*/
+/*    display: flex;*/
+/*    align-items: flex-end;*/
+/*}*/
+/*.hobby-card-item .content-header {*/
+/*    max-width: 320px;*/
+/*    height: 40px;*/
+/*    word-break: break-all;*/
+/*}*/
+/*.services__direction-items.select-wrapper,*/
+/*.services__direction-items.select-wrapper input {*/
+/*    width: 100%;*/
+/*    background-color: transparent;*/
+/*    color: #3D454E;*/
+/*}*/
+/*.select-wrapper .scroll-list-item {*/
+/*    width: 100%;*/
+/*}*/
+/*.services__direction-items.select-wrapper {*/
+/*    margin-bottom: 30px;*/
+/*}*/
+/*.services__direction-items.select-wrapper ul {*/
+/*    width: 73.5%;*/
+/*}*/
+/*.providing.select-container input {*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:checked+label,*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:not(:checked)+label {*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    padding-left: 28px;*/
+/*    line-height: 20px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:checked+label:before,*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:not(:checked)+label:before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0px;*/
+/*    top: 0px;*/
+/*    width: 17px;*/
+/*    height: 17px;*/
+/*    border: 1px solid #5086F5;*/
+/*    background-color: #FFFFFF;*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:checked+label:before {*/
+/*    background-color: #5086F5;*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:checked+label:before,*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:not(:checked)+label:before {*/
+/*    border-radius: 2px;*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:checked+label:after,*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:not(:checked)+label:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    -webkit-transition: all 0.2s ease;*/
+/*    -moz-transition: all 0.2s ease;*/
+/*    -o-transition: all 0.2s ease;*/
+/*    transition: all 0.2s ease;*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:checked+label:after,*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:not(:checked)+label:after {*/
+/*    left: 4px;*/
+/*    top: 4px;*/
+/*    width: 9px;*/
+/*    height: 5px;*/
+/*    border-radius: 1px;*/
+/*    border-left: 2px solid #FFFFFF;*/
+/*    border-bottom: 2px solid #FFFFFF;*/
+/*    -webkit-transform: rotate(-45deg);*/
+/*    -moz-transform: rotate(-45deg);*/
+/*    -o-transform: rotate(-45deg);*/
+/*    -ms-transform: rotate(-45deg);*/
+/*    transform: rotate(-45deg);*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:not(:checked)+label:after {*/
+/*    opacity: 0;*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="checkbox"]:checked+label:after {*/
+/*    opacity: 1;*/
+/*}*/
+/*.services__direction-items.select-wrapper label {*/
+/*    user-select: none;*/
+/*}*/
+/*.form-row.kategory-input .new-select {*/
+/*    color: #3D454E;*/
+/*}*/
+/*.services__direction-items.select-wrapper input[type="text"] {*/
+/*    width: 100%;*/
+/*    overflow: hidden;*/
+/*    text-overflow: ellipsis;*/
+/*    padding-right: 35px;*/
+/*}*/
+/*.direction-input-item,*/
+/*.direction-input-item input[type="text"] {*/
+/*    cursor: pointer;*/
+/*}*/
+/*.form-row > .services__direction-items.select-wrapper {*/
+/*    margin-bottom: 0;*/
+/*}*/
+/*.form-row.basic-direction.directions-select {*/
+/*    margin-bottom: 40px;*/
+/*}*/
+/*.direction-list-item.providing .scroll-list-item {*/
+/*    height: auto;*/
+/*}*/
+/*.direction-list-item.providing {*/
+/*    max-height: 270px;*/
+/*    overflow: hidden scroll;*/
+/*}*/
+/*.personal-account .profile__form {*/
+/*    width: 100%;*/
+/*    margin-right: 100px;*/
+/*}*/
+/*.row.profile-view-wrap.personal-account {*/
+/*    padding-left: 40px;*/
+/*}*/
+/*.personal-account input[name="update-employee-info"] {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    width: 204px;*/
+/*}*/
+/*.row.profile-view-wrap.services.services-edit {*/
+/*    width: 100%;*/
+/*}*/
+/*.services-edit .services-box.add-service-page {*/
+/*    width: 88%;*/
+/*}*/
+/*.services-edit .services-button-save {*/
+/*    margin-right: 0;*/
+/*}*/
+/*.services-edit .services-button-container {*/
+/*    margin-bottom: 0;*/
+/*}*/
+/*.service-delete-button input[name="services-button-delete"] {*/
+/*    width: max-content;*/
+/*    border: 0;*/
+/*    padding: 0;*/
+/*    margin: 0 0 150px 0;*/
+/*    cursor: pointer;*/
+/*    color: #2D5BB9;*/
+/*    font: 500 15px "Montserrat";*/
+/*}*/
+/*.basic-direction .services__direction-items.select-wrapper ul {*/
+/*    width: 100%;*/
+/*}*/
+/*.show-organization-success-modal.jqm-init {*/
+/*    width: 570px;*/
+/*    height: 431px;*/
+/*}*/
+/*.output-file {*/
+/*    width: 50%;*/
+/*    position: absolute;*/
+/*    margin-top: -30px;*/
+/*    font-size: 10px;*/
+/*}*/
+/*.news-add-element .services-button-container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.news-add-element .services-button-inner {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: baseline;*/
+/*}*/
+/*.news-add-element .services-button-inner a {*/
+/*    text-decoration: none;*/
+/*}*/
+/*.modal__form input {*/
+/*    border: 1px solid #C5C7CA;*/
+/*    border-radius: 6px;*/
+/*}*/
+/*.modal__form input:focus {*/
+/*    border: 1px solid #5086F5;*/
+/*    border-radius: 6px;*/
+/*    outline: none;*/
+/*}*/
+/*.modal__form input.visited {*/
+/*    border: 1px solid #9EA2A6;*/
+/*}*/
+/*.modal__form input::-webkit-input-placeholder {*/
+/*    color: #C5C7CA;*/
+/*    font: 400 16px/160% "Montserrat";*/
+/*}*/
+/*.modal__form input[type="submit"] {*/
+/*    border: 0;*/
+/*}*/
+/*.show-employees-modal.modal-popup.jqm-init,*/
+/*.show-employees-modal.modal-popup-edit.jqm-init {*/
+/*    width: 570px;*/
+/*}*/
+/*.show-employees-modal .button-check-send {*/
+/*    margin-bottom: 100px;*/
+/*    margin-top: 0;*/
+/*}*/
+/*.modal__form .services__direction-items.providing {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.content-item-button.btn-delete-employee {*/
+/*    color: #9EA2A6;*/
+/*}*/
+/*.direction-list-item.providing.fill-sections {*/
+/*    padding-top: 0;*/
+/*}*/
+/*.profile__form .direction-input-item input[type="text"] {*/
+/*    background-color: transparent;*/
+/*}*/
+/*.fixed {*/
+/*    position: fixed;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    overflow: hidden;*/
+/*}*/
+/*.button-employees-add.jqModal {*/
+/*    max-width: fit-content;*/
+/*}*/
+/*.modal__form input[disabled]:not(:last-of-type) {*/
+/*    color: #9EA2A6;*/
+/*    background-color: transparent;*/
+/*}*/
+/*.row.profile-view-wrap.employees .col-12 {*/
+/*    padding-left: 0;*/
+/*}*/
+/*.show-employees-success-modal.jqm-init {*/
+/*    width: 570px;*/
+/*}*/
+/*@media (min-width: 992px) and (max-width: 1200px) {*/
+/*    .hobby-card-item .content-author,*/
+/*    .training-card-item .content-author,*/
+/*    .news-card-item .content-author {*/
+/*        margin-top: 64px;*/
+/*    }*/
+/*    .hobby-card-item .content-button,*/
+/*    .training-card-item .content-button,*/
+/*    .news-card-item .content-button {*/
+/*        position: relative;*/
+/*        left: 15px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 992px) {*/
+/*    .profile-view-wrap {*/
+/*        margin: 0;*/
+/*    }*/
+/*    .services__form .price-services::after {*/
+/*        width: calc(125% - 100px);*/
+/*    }*/
+/*}*/
+/*@media (max-width: 786px) {*/
+/*    .profile-view .row.profile-view-wrap {*/
+/*        margin: 0;*/
+/*    }*/
+/*    .profile-view .profile__form {*/
+/*        width: 70%;*/
+/*    }*/
+/*    .form-row.kategory-input,*/
+/*    .form-row.basic-direction {*/
+/*        width: inherit;*/
+/*    }*/
+/*    .content-box-item {*/
+/*        width: 110%;*/
+/*    }*/
+/*    .profile-aside-menu {*/
+/*        display: grid;*/
+/*        grid-template-columns: 1fr 1fr;*/
+/*    }*/
+/*    .profile .profile-aside-menu li:not(:last-of-type) {*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/*    .col-lg-4.profile-aside {*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+/*    .content-box-item {*/
+/*        width: 114%;*/
+/*    }*/
+/*    .container {*/
+/*        max-width: 100% !important;*/
+/*    }*/
+/*    .news-card-item .content-header {*/
+/*        padding-right: 10px;*/
+/*        height: auto;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 690px) {*/
+/*    .news-card-item {*/
+/*        max-height: unset;*/
+/*    }*/
+/*    .hobby-card-item .content-box,*/
+/*    .training-card-item .content-box,*/
+/*    .news-card-item .content-box {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+/*    .hobby-card-item .item-video,*/
+/*    .training-card-item .item-video,*/
+/*    .news-card-item .item-video {*/
+/*        margin: 15px 20px 0 10px;*/
+/*        width: 130px;*/
+/*        height: 105px;*/
+/*    }*/
+/*    .hobby-card-item,*/
+/*    .training-card-item,*/
+/*    .news-card-item {*/
+/*        grid-template-columns: 1fr 3fr;*/
+/*    }*/
+/*    .hobby-card-item .content-author,*/
+/*    .training-card-item .content-author,*/
+/*    .news-card-item .content-author {*/
+/*        margin-top: 62px;*/
+/*        position: relative;*/
+/*        left: -150px;*/
+/*    }*/
+/*    .hobby-card-item .content-button,*/
+/*    .training-card-item .content-button,*/
+/*    .news-card-item .content-button {*/
+/*        margin-bottom: 16px;*/
+/*        position: relative;*/
+/*        left: 32%;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 620px) {*/
+/*    .services .services__form {*/
+/*        width: 75%;*/
+/*    }*/
+/*    .services textarea {*/
+/*        max-width: 100%;*/
+/*    }*/
+/*    .services textarea[name="text-preview"] {*/
+/*        max-width: 100%;*/
+/*    }*/
+/*    .services .direction-list-item {*/
+/*        max-width: 400px;*/
+/*        width: 100%;*/
+/*    }*/
+/*    .tabs-nav.tabs-nav-horizontal {*/
+/*        flex-wrap: nowrap;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 615px) {*/
+/*    .hobby-card-item .content-author,*/
+/*    .training-card-item .content-author,*/
+/*    .news-card-item .content-author {*/
+/*        margin-top: 50px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 590px) {*/
+/*    .hobby-card-item .content-button,*/
+/*    .training-card-item .content-button,*/
+/*    .news-card-item .content-button {*/
+/*        left: 40px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 576px) {*/
+/*    .container {*/
+/*        max-width: 100%;*/
+/*    }*/
+/*    .profile-view .profile__form {*/
+/*        width: 95%;*/
+/*    }*/
+/*    .content-box-item {*/
+/*        width: 97%;*/
+/*    }*/
+/*    .hobby-card-item,*/
+/*    .training-card-item,*/
+/*    .news-card-item {*/
+/*        margin-right: 10px;*/
+/*    }*/
+/*    .row.profile-view-wrap.news {*/
+/*        padding-left: 20px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 491px) {*/
+/*    .row.profile-view-wrap.services {*/
+/*        padding-left: 20px;*/
+/*    }*/
+/*    .hobby-card-item,*/
+/*    .training-card-item,*/
+/*    .news-card-item {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+/*    .hobby-card-item .item-video,*/
+/*    .training-card-item .item-video,*/
+/*    .news-card-item .item-video {*/
+/*        margin: 15px auto;*/
+/*        min-width: 90%;*/
+/*        min-height: 120%;*/
+/*        object-fit: contain;*/
+/*    }*/
+/*    .news-card-item .item-video .video-link {*/
+/*        background-size: 100% 100%;*/
+/*    }*/
+/*    .news-card-item .content-header {*/
+/*        padding-left: 20px;*/
+/*        padding-top: 70px;*/
+/*    }*/
+/*    .hobby-card-item .content-author,*/
+/*    .training-card-item .content-author,*/
+/*    .news-card-item .content-author {*/
+/*        left: 20px;*/
+/*        top: -130px;*/
+/*    }*/
+/*    .hobby-card-item .content-button,*/
+/*    .training-card-item .content-button,*/
+/*    .news-card-item .content-button {*/
+/*        left: 20px;*/
+/*        top: -10px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 450px) {*/
+/*    .profile .profile-view-wrap {*/
+/*        padding-left: 20px;*/
+/*    }*/
+/*    .tabs-nav.tabs-nav-horizontal {*/
+/*        display: flex;*/
+/*        flex-wrap: nowrap;*/
+/*        white-space: nowrap;*/
+/*    }*/
+/*    .profile .tabs-nav.tabs-nav-horizontal {*/
+/*        margin-left: 0;*/
+/*        font-size: 15px;*/
+/*    }*/
+/*    .services .services__form {*/
+/*        width: 65%;*/
+/*    }*/
+/*    .services .direction-list-item {*/
+/*        max-width: 345px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 400px) {*/
+/*    .services .services__form {*/
+/*        width: 52%;*/
+/*    }*/
+/*    .services .direction-list-item {*/
+/*        max-width: 276px;*/
+/*    }*/
+/*    .news-card-item .content-header {*/
+/*        padding-top: 50px;*/
+/*        position: relative;*/
+/*        top: 20px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 340px) {*/
+/*    .profile-view {*/
+/*        padding: 0;*/
+/*        overflow: hidden;*/
+/*    }*/
+/*}*/

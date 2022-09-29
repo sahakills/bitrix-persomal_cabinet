@@ -1,0 +1,9 @@
+.accept-del-news-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #FFFFFF;
+    border: 0;
+    transform: translate(-50%, -50%);
+}
